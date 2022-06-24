@@ -1,16 +1,22 @@
 {
-  "name": "telegram-bot",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "axios": "^0.27.2",
-    "telebot": "^1.4.1"
-  }
+    "type": "commonjs",
+    "name": "telegram-bot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "format": "npx prettier --write ."
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.27.2",
+        "telebot": "^1.4.1"
+    },
+    "devDependencies": {
+        "eslint": "^8.18.0",
+        "prettier": "2.7.1"
+    }
 }

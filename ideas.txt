@@ -1,0 +1,17 @@
+Cosas que debe hacer el bot:
+
+1. Mostrar un mensaje de bienvenida.
+2. Tener botones para ver el catalogo, escoger el metodo de pago, zonas de entrega y horarios de atencion.
+
+    Desestructurando el mensaje bienvenida:
+
+    1. Detectar si el usuario ha ingresado al chat
+    2. De ser así, obtener su ingresado
+    3. Retornar un string con el saludo y su nombre concatenado.
+
+    Desestructurando los botones:
+
+    1.Crear en el dir 'plugins' un archivo que contenga un objeto con los botones con sus respectivas etiquetas y commandos.
+    2. Exportar el objeto contenedor de los botones.
+    3. En el index.js importar los botones
+    4. Programar que hace cada comando de los botones.
